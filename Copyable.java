@@ -23,10 +23,10 @@ package remixlab.util;
  * </ol>
  */
 public interface Copyable {
-  /**
-   * Returns a deep copy of the object.
-   * <p>
-   * Typical implementation should simple look like: {@code return new Object(this)}.
-   */
-  public Object get();
+ /**
+  * Returns a deep copy of the object.
+  * <p>
+  * Typical implementation should simple look like: {@code return new Object(this)}.
+  */
+ public Object get();
 }
